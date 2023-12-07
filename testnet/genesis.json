@@ -152,12 +152,7 @@
             "balances": [
                 {
                     "address": "iconlake1njpxea460gxk5l448mxs75g7qe796wsnmmxxfc",
-                    "coins": [
-                        {
-                            "denom": "ulake",
-                            "amount": "0"
-                        }
-                    ]
+                    "coins": []
                 },
                 {
                     "address": "iconlake1s7059vfmj9s9av3cj0lqqmjxfr4rtf8sp96h2y",
@@ -289,24 +284,40 @@
             "supply": [],
             "denom_metadata": [
                 {
-                    "denom": "ulake",
-                    "exponent": 0,
-                    "aliases": []
+                    "symbol": "LAKE",
+                    "name": "iconLake LAKE",
+                    "base": "ulake",
+                    "display": "LAKE",
+                    "denom_units": [
+                        {
+                            "denom": "ulake",
+                            "exponent": 0,
+                            "aliases": []
+                        },
+                        {
+                            "denom": "LAKE",
+                            "exponent": 6,
+                            "aliases": []
+                        }
+                    ]
                 },
                 {
-                    "denom": "LAKE",
-                    "exponent": 6,
-                    "aliases": []
-                },
-                {
-                    "denom": "udrop",
-                    "exponent": 0,
-                    "aliases": []
-                },
-                {
-                    "denom": "DROP",
-                    "exponent": 4,
-                    "aliases": []
+                    "symbol": "DROP",
+                    "name": "iconLake DROP",
+                    "base": "udrop",
+                    "display": "DROP",
+                    "denom_units": [
+                        {
+                            "denom": "udrop",
+                            "exponent": 0,
+                            "aliases": []
+                        },
+                        {
+                            "denom": "DROP",
+                            "exponent": 4,
+                            "aliases": []
+                        }
+                    ]
                 }
             ],
             "send_enabled": [
