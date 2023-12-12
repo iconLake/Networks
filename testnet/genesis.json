@@ -159,7 +159,7 @@
                     "coins": [
                         {
                             "denom": "ulake",
-                            "amount": "7000"
+                            "amount": "7000000000"
                         }
                     ]
                 },
@@ -168,7 +168,7 @@
                     "coins": [
                         {
                             "denom": "ulake",
-                            "amount": "10000"
+                            "amount": "10000000000"
                         }
                     ]
                 },
@@ -177,7 +177,7 @@
                     "coins": [
                         {
                             "denom": "ulake",
-                            "amount": "10000"
+                            "amount": "10000000000"
                         }
                     ]
                 },
@@ -186,7 +186,7 @@
                     "coins": [
                         {
                             "denom": "ulake",
-                            "amount": "50000"
+                            "amount": "50000000000"
                         }
                     ]
                 },
@@ -195,7 +195,7 @@
                     "coins": [
                         {
                             "denom": "ulake",
-                            "amount": "50000"
+                            "amount": "50000000000"
                         }
                     ]
                 },
@@ -204,7 +204,7 @@
                     "coins": [
                         {
                             "denom": "ulake",
-                            "amount": "1000000"
+                            "amount": "1000000000000"
                         }
                     ]
                 },
@@ -213,7 +213,7 @@
                     "coins": [
                         {
                             "denom": "ulake",
-                            "amount": "2000000"
+                            "amount": "2000000000000"
                         }
                     ]
                 },
@@ -222,7 +222,7 @@
                     "coins": [
                         {
                             "denom": "ulake",
-                            "amount": "6000000"
+                            "amount": "6000000000000"
                         }
                     ]
                 },
@@ -231,7 +231,7 @@
                     "coins": [
                         {
                             "denom": "ulake",
-                            "amount": "10000000"
+                            "amount": "10000000000000"
                         }
                     ]
                 },
@@ -240,7 +240,7 @@
                     "coins": [
                         {
                             "denom": "ulake",
-                            "amount": "10000000"
+                            "amount": "10000000000000"
                         }
                     ]
                 },
@@ -249,7 +249,7 @@
                     "coins": [
                         {
                             "denom": "ulake",
-                            "amount": "10000000"
+                            "amount": "10000000000000"
                         }
                     ]
                 },
@@ -258,7 +258,7 @@
                     "coins": [
                         {
                             "denom": "ulake",
-                            "amount": "160000000"
+                            "amount": "160000000000000"
                         }
                     ]
                 },
@@ -267,7 +267,7 @@
                     "coins": [
                         {
                             "denom": "ulake",
-                            "amount": "50000000"
+                            "amount": "50000000000000"
                         }
                     ]
                 },
@@ -276,7 +276,7 @@
                     "coins": [
                         {
                             "denom": "ulake",
-                            "amount": "100000000"
+                            "amount": "100000000000000"
                         }
                     ]
                 }

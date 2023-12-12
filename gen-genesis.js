@@ -38,12 +38,12 @@ Object.keys(accounts).forEach((address) => {
     });
     genBalances.push({
         address,
-        coins: [
+        coins: accounts[address].amount > 0 ? [
             {
                 denom: "ulake",
-                amount: `${accounts[address].amount}`,
+                amount: `${accounts[address].amount * 1000000}`,
             },
-        ],
+        ] : [],
     });
 });
 
