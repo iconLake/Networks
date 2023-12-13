@@ -1,5 +1,5 @@
 {
-    "genesis_time": "2023-11-28T15:00:00Z",
+    "genesis_time": "2023-12-30T10:00:00Z",
     "chain_id": "iconlake-testnet-1",
     "initial_height": "1",
     "consensus_params": {
@@ -508,7 +508,7 @@
                 "max_entries": 7,
                 "max_validators": 100,
                 "min_commission_rate": "0.050000000000000000",
-                "unbonding_time": "864000s"
+                "unbonding_time": "600s"
             },
             "redelegations": [],
             "unbonding_delegations": [],

@@ -1,0 +1,11 @@
+{
+  "name": "networks",
+  "version": "1.0.0",
+  "description": "iconLake Networks",
+  "scripts": {
+    "testnet": "node ./tools/genesis.js testnet",
+    "mainnet": "node ./tools/genesis.js mainnet"
+  },
+  "author": "HuanXiang",
+  "license": "MIT"
+}
