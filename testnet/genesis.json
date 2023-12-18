@@ -381,7 +381,7 @@
                 "burn_proposal_deposit_prevote": false,
                 "burn_vote_quorum": false,
                 "burn_vote_veto": true,
-                "max_deposit_period": "604800s",
+                "max_deposit_period": "1209600s",
                 "min_deposit": [
                     {
                         "amount": "10000000000",
@@ -392,7 +392,7 @@
                 "quorum": "0.334000000000000000",
                 "threshold": "0.500000000000000000",
                 "veto_threshold": "0.334000000000000000",
-                "voting_period": "604800s"
+                "voting_period": "1209600s"
             },
             "proposals": [],
             "starting_proposal_id": "1",
