@@ -35,12 +35,12 @@ console.log(JSON.stringify(accounts, null, 2));
 
 const genAccounts = [];
 const genBalances = [];
-Object.keys(accounts).forEach((address) => {
+Object.keys(accounts).forEach((address, i) => {
   genAccounts.push({
     "@type": "/cosmos.auth.v1beta1.BaseAccount",
     address,
     pub_key: null,
-    account_number: "0",
+    account_number: i.toString(),
     sequence: "0",
   });
   genBalances.push({
