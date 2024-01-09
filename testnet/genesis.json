@@ -1,5 +1,5 @@
 {
-    "genesis_time": "2024-01-03T10:00:00Z",
+    "genesis_time": "2023-01-09T10:00:00Z",
     "chain_id": "iconlake-testnet-1",
     "initial_height": "1",
     "consensus_params": {
@@ -45,98 +45,98 @@
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "address": "iconlake1s7059vfmj9s9av3cj0lqqmjxfr4rtf8sp96h2y",
                     "pub_key": null,
-                    "account_number": "1",
+                    "account_number": "0",
                     "sequence": "0"
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "address": "iconlake1n876vzxgje32dc8up225qvgw8vuy493653qtww",
                     "pub_key": null,
-                    "account_number": "2",
+                    "account_number": "0",
                     "sequence": "0"
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "address": "iconlake1pxqa7hmxkx9r35g2lwvuvwq5tkg3y5dw28jvrl",
                     "pub_key": null,
-                    "account_number": "3",
+                    "account_number": "0",
                     "sequence": "0"
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "address": "iconlake1rhnvuydkc4t5azq0z09hcqen9u8ekhg873dkgg",
                     "pub_key": null,
-                    "account_number": "4",
+                    "account_number": "0",
                     "sequence": "0"
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "address": "iconlake1ahlth4rflvh36rln9er5fcd6em3n2u9nzfsqn0",
                     "pub_key": null,
-                    "account_number": "5",
+                    "account_number": "0",
                     "sequence": "0"
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "address": "iconlake18ys2r7lrrantxumgt39t3vse2sktfh9dawwr0e",
                     "pub_key": null,
-                    "account_number": "6",
+                    "account_number": "0",
                     "sequence": "0"
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "address": "iconlake1czyzplzxg0jymafyh85vtagz5vgcxyjsh469nu",
                     "pub_key": null,
-                    "account_number": "7",
+                    "account_number": "0",
                     "sequence": "0"
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "address": "iconlake15veufu0pxwtnqxr0adnn4qg6rr256zghk26aj0",
                     "pub_key": null,
-                    "account_number": "8",
+                    "account_number": "0",
                     "sequence": "0"
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "address": "iconlake1e3q6lk29tflkqv04yerh93v3xu0u7qt64x0ncg",
                     "pub_key": null,
-                    "account_number": "9",
+                    "account_number": "0",
                     "sequence": "0"
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "address": "iconlake1wzkpd2nmr82r7fe6vytz4s9rtyumw450rx8xpl",
                     "pub_key": null,
-                    "account_number": "10",
+                    "account_number": "0",
                     "sequence": "0"
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "address": "iconlake1p0et40a07cypd5rly5k8ch0snvqk983sqsxjqd",
                     "pub_key": null,
-                    "account_number": "11",
+                    "account_number": "0",
                     "sequence": "0"
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
-                    "address": "iconlake1r3596t3z7h3wg8cuapc7s36epd5d3hj65v5m8y",
+                    "address": "iconlake1u9cjakfn85sgrwc0zl6vedduqqktgl7xl4f9qw",
                     "pub_key": null,
-                    "account_number": "12",
+                    "account_number": "0",
                     "sequence": "0"
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "address": "iconlake1n2ptahu90en5q7798zlkget9lfmn8qyw7dpxuw",
                     "pub_key": null,
-                    "account_number": "13",
+                    "account_number": "0",
                     "sequence": "0"
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
-                    "address": "iconlake12ue3xrjeyxp09kuu8s2uw3nu3gqtzva32qrj78",
+                    "address": "iconlake1t87hmxmsmj8e8v4d38g72h9wq4m3qlusfyhy2m",
                     "pub_key": null,
-                    "account_number": "14",
+                    "account_number": "0",
                     "sequence": "0"
                 }
             ]
@@ -254,7 +254,7 @@
                     ]
                 },
                 {
-                    "address": "iconlake1r3596t3z7h3wg8cuapc7s36epd5d3hj65v5m8y",
+                    "address": "iconlake1u9cjakfn85sgrwc0zl6vedduqqktgl7xl4f9qw",
                     "coins": [
                         {
                             "denom": "ulake",
@@ -272,7 +272,7 @@
                     ]
                 },
                 {
-                    "address": "iconlake12ue3xrjeyxp09kuu8s2uw3nu3gqtzva32qrj78",
+                    "address": "iconlake1t87hmxmsmj8e8v4d38g72h9wq4m3qlusfyhy2m",
                     "coins": [
                         {
                             "denom": "ulake",
@@ -372,7 +372,142 @@
             "allowances": []
         },
         "genutil": {
-            "gen_txs": []
+            "gen_txs": [
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "node in KR",
+                                    "identity": "",
+                                    "website": "https://test.iconlake.com/",
+                                    "security_contact": "support@iconlake.com",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "iconlake1t87hmxmsmj8e8v4d38g72h9wq4m3qlusfyhy2m",
+                                "validator_address": "iconlakevaloper1t87hmxmsmj8e8v4d38g72h9wq4m3qlusvyaaxn",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "oxJ4lDdSSNHHhQ776UKdMIIhwsaD8YU3v4eLxQMP84s="
+                                },
+                                "value": {
+                                    "denom": "ulake",
+                                    "amount": "1000000000000"
+                                }
+                            }
+                        ],
+                        "memo": "",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "A0exB/sLaqNX1CuMMGeBi2Yj7qx0YCU4ia7dHVE8LTHw"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [
+                                {
+                                    "denom": "ulake",
+                                    "amount": "5000"
+                                }
+                            ],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        },
+                        "tip": null
+                    },
+                    "signatures": [
+                        "LIf/X+lx7JioOjyt8QiV7V5Zo8k+uy38vP3xVAcLjH4LM3IznVlcRV8e7Bik6STV/7XU+yiDsQhTCpiETvUVtQ=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "A Node in SH",
+                                    "identity": "",
+                                    "website": "",
+                                    "security_contact": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "iconlake1u9cjakfn85sgrwc0zl6vedduqqktgl7xl4f9qw",
+                                "validator_address": "iconlakevaloper1u9cjakfn85sgrwc0zl6vedduqqktgl7x64ruvx",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "Cf9WH/xz8Qklg7oWuKU3xhtAvnnOht3GXUg6GMDFVsM="
+                                },
+                                "value": {
+                                    "denom": "ulake",
+                                    "amount": "1000000000000"
+                                }
+                            }
+                        ],
+                        "memo": "",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "AiLemKf9Z6IyDCPI5kX2s/61PX1SAk7Qp30FfII+VaQk"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [
+                                {
+                                    "denom": "ulake",
+                                    "amount": "5000"
+                                }
+                            ],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        },
+                        "tip": null
+                    },
+                    "signatures": [
+                        "CAywRD0HgXz4gSc34orGFCenNfS+JOclOCJXe9S8Z80nCiCBoT5TjJSYEqu3kW2E9ob677C5WkEb9PHhxWjjCg=="
+                    ]
+                }
+            ]
         },
         "gov": {
             "deposit_params": null,

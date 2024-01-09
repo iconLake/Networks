@@ -31,6 +31,7 @@ csv
     }
   });
 
+console.log("Accounts:\n");
 console.log(JSON.stringify(accounts, null, 2));
 
 const genAccounts = [];
@@ -40,7 +41,7 @@ Object.keys(accounts).forEach((address, i) => {
     "@type": "/cosmos.auth.v1beta1.BaseAccount",
     address,
     pub_key: null,
-    account_number: i.toString(),
+    account_number: "0",
     sequence: "0",
   });
   genBalances.push({
@@ -61,10 +62,24 @@ genesisJson.app_state.auth.accounts = genAccounts;
 genesisJson.app_state.bank.balances = genBalances;
 
 if (network === "testnet") {
-  genesisJson.genesis_time = "2023-12-30T10:00:00Z";
+  genesisJson.genesis_time = "2023-01-09T10:00:00Z";
   genesisJson.chain_id = "iconlake-testnet-1";
   genesisJson.app_state.staking.params.unbonding_time = "600s";
 }
+
+const txs = [];
+fs.readdirSync(path.resolve(__dirname, `../${network}/gentx`))
+  .filter((e) => e.endsWith(".json"))
+  .forEach((file) => {
+    const tx = JSON.parse(
+      fs.readFileSync(path.resolve(__dirname, `../${network}/gentx/${file}`))
+    );
+    txs.push(tx);
+  });
+
+genesisJson.app_state.genutil.gen_txs = txs;
+
+console.log("\n Txs count:", txs.length);
 
 fs.writeFileSync(
   path.resolve(__dirname, `../${network}/genesis.json`),
