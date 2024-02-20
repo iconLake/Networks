@@ -126,7 +126,9 @@
         },
         "drop": {
             "infoList": [],
-            "params": {}
+            "params": {
+                "init_amount": "100000"
+            }
         },
         "evidence": {
             "evidence": []
