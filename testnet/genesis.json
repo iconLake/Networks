@@ -1,5 +1,5 @@
 {
-    "genesis_time": "2023-01-09T10:00:00Z",
+    "genesis_time": "2023-02-20T15:00:00Z",
     "chain_id": "iconlake-testnet-1",
     "initial_height": "1",
     "consensus_params": {
@@ -120,7 +120,7 @@
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
-                    "address": "iconlake1u9cjakfn85sgrwc0zl6vedduqqktgl7xl4f9qw",
+                    "address": "iconlake1guunkwmh9aug0308m7c386ggmflywa6kxq0wpu",
                     "pub_key": null,
                     "account_number": "0",
                     "sequence": "0"
@@ -134,7 +134,7 @@
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
-                    "address": "iconlake1t87hmxmsmj8e8v4d38g72h9wq4m3qlusfyhy2m",
+                    "address": "iconlake1qz4w4zkald8fa9zjdqgm2amfsftzv0x77cgsde",
                     "pub_key": null,
                     "account_number": "0",
                     "sequence": "0"
@@ -254,7 +254,7 @@
                     ]
                 },
                 {
-                    "address": "iconlake1u9cjakfn85sgrwc0zl6vedduqqktgl7xl4f9qw",
+                    "address": "iconlake1guunkwmh9aug0308m7c386ggmflywa6kxq0wpu",
                     "coins": [
                         {
                             "denom": "ulake",
@@ -272,7 +272,7 @@
                     ]
                 },
                 {
-                    "address": "iconlake1t87hmxmsmj8e8v4d38g72h9wq4m3qlusfyhy2m",
+                    "address": "iconlake1qz4w4zkald8fa9zjdqgm2amfsftzv0x77cgsde",
                     "coins": [
                         {
                             "denom": "ulake",
