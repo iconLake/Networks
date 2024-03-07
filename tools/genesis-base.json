@@ -127,7 +127,9 @@
         "drop": {
             "infoList": [],
             "params": {
-                "init_amount": "100000"
+                "init_amount": "100000",
+                "min_amount_per_mint": "10000",
+                "max_amount_per_mint": "600000"
             }
         },
         "evidence": {
