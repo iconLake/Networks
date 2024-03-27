@@ -456,7 +456,7 @@
                                 "commission": {
                                     "rate": "0.050000000000000000",
                                     "max_rate": "0.500000000000000000",
-                                    "max_change_rate": "1.000000000000000000"
+                                    "max_change_rate": "0.500000000000000000"
                                 },
                                 "min_self_delegation": "1",
                                 "delegator_address": "iconlake1rw5adw6kretztzsvtm9ehxjkn4j5wu9jrnea77",
@@ -500,7 +500,7 @@
                         "tip": null
                     },
                     "signatures": [
-                        "BVBjrNSUMkmT1+TyNrgktkdfClq32HPNqaqaLRrqMlgtHKkItpmYLwmhUx3ew88v5pbsEfZj2xVuV6rcOFV+PQ=="
+                        "fY3duI0Jr7TK0rddgKfkyDAVZbwCvwaDvKyEHimcHRpKg71akXlhkeFtpOPOcelXFz7GeEHtr2XfJb6q1eCEZA=="
                     ]
                 },
                 {
@@ -518,7 +518,7 @@
                                 "commission": {
                                     "rate": "0.050000000000000000",
                                     "max_rate": "0.500000000000000000",
-                                    "max_change_rate": "1.000000000000000000"
+                                    "max_change_rate": "0.500000000000000000"
                                 },
                                 "min_self_delegation": "1",
                                 "delegator_address": "iconlake13z4l7ltwnx84zfgnhwz7d6vrsv69kdyk7kfqlu",
@@ -562,7 +562,7 @@
                         "tip": null
                     },
                     "signatures": [
-                        "NYPDzARaLYkXJx1/JZm2hPH/WIVVUu+BCvHR2lHH5SkJRIPXE3X6lyj14AvD/4iyhqX01cDIgM5ubs87BQHItQ=="
+                        "sqKXtVPhrlAihtYnB169veYleesjc/jVdaLNRNvcrXlKWCEEHcxXrQd9PXh/jC3Cg9CD3vX02RksiwZI3AKrfQ=="
                     ]
                 },
                 {
@@ -580,7 +580,7 @@
                                 "commission": {
                                     "rate": "0.050000000000000000",
                                     "max_rate": "0.500000000000000000",
-                                    "max_change_rate": "1.000000000000000000"
+                                    "max_change_rate": "0.500000000000000000"
                                 },
                                 "min_self_delegation": "1",
                                 "delegator_address": "iconlake19gpyrpf54k4h4makga0d2ea5hk3wmvuc4vvpkd",
@@ -624,7 +624,7 @@
                         "tip": null
                     },
                     "signatures": [
-                        "UQNWgjDG0wSjcD1mvLscHFDxw9fttfCueOEBKD5RMUN7oCZs28JOZcpKIUPbFHoTRi6/Cw4b7h54iq4jds9Mvw=="
+                        "fCLEWlMZd+E8UTHYk82HqRGgzHx9GFUIri09hpXi7LEjohOUfihXZ2WnzK1yCD/4WlA9uVBHpl+y5VcO/AXgJA=="
                     ]
                 },
                 {
@@ -642,7 +642,7 @@
                                 "commission": {
                                     "rate": "0.050000000000000000",
                                     "max_rate": "0.500000000000000000",
-                                    "max_change_rate": "1.000000000000000000"
+                                    "max_change_rate": "0.500000000000000000"
                                 },
                                 "min_self_delegation": "1",
                                 "delegator_address": "iconlake1ahz25x6y75jqhy2tsw74c3wclfczj2fe2cr0h4",
@@ -686,7 +686,7 @@
                         "tip": null
                     },
                     "signatures": [
-                        "mRtSnhxdk7YXTsJ7biN4NvLhxWvz2RGWMMdSS00fnvdpHhf5KBZIVMkJZM5GIqKBnIssXoiYwk9DHtfy0fantQ=="
+                        "czKlnbW/oSRYyxCRhO+30h1PjgdPnIAVKaGXDflU2q8e/YX02zChumbEXILfuaxx1/7k2Mf3VQcvhvTwmBhkPg=="
                     ]
                 }
             ]
