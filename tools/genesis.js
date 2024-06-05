@@ -9,7 +9,7 @@ let csv = `
 iconlake,iconlake1njpxea460gxk5l448mxs75g7qe796wsnmmxxfc,0
 `;
 
-const accountsCSV = fs.readFileSync(path.resolve(__dirname, `./accounts.csv`));
+const accountsCSV = fs.readFileSync(path.resolve(__dirname, './accounts.csv'));
 
 csv += accountsCSV.toString().split("\n").slice(1).join("\n");
 
@@ -62,25 +62,28 @@ genesisJson.app_state.auth.accounts = genAccounts;
 genesisJson.app_state.bank.balances = genBalances;
 
 if (network === "testnet") {
-  genesisJson.genesis_time = "2023-02-26T15:00:00Z";
+  genesisJson.genesis_time = "2023-06-05T15:00:00Z";
   genesisJson.chain_id = "iconlake-testnet-1";
   genesisJson.app_state.staking.params.unbonding_time = "600s";
   genesisJson.app_state.gov.params.voting_period = "86400s";
 }
 
 const txs = [];
-fs.readdirSync(path.resolve(__dirname, `../${network}/gentx`))
-  .filter((e) => e.endsWith(".json"))
-  .forEach((file) => {
-    const tx = JSON.parse(
-      fs.readFileSync(path.resolve(__dirname, `../${network}/gentx/${file}`))
-    );
-    txs.push(tx);
-  });
+const txsDir = path.resolve(__dirname, `../${network}/gentx`);
+if (fs.existsSync(txsDir)) {
+  fs.readdirSync(path.resolve(__dirname, `../${network}/gentx`))
+    .filter((e) => e.endsWith(".json"))
+    .forEach((file) => {
+      const tx = JSON.parse(
+        fs.readFileSync(path.resolve(__dirname, `../${network}/gentx/${file}`))
+      );
+      txs.push(tx);
+    });
 
-genesisJson.app_state.genutil.gen_txs = txs;
+  genesisJson.app_state.genutil.gen_txs = txs;
 
-console.log("\n Txs count:", txs.length);
+  console.log("\n Txs count:", txs.length);
+}
 
 fs.writeFileSync(
   path.resolve(__dirname, `../${network}/genesis.json`),

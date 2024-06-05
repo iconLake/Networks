@@ -7,5 +7,6 @@
     "mainnet": "node ./tools/genesis.js mainnet"
   },
   "author": "HuanXiang",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@9.1.2"
 }
