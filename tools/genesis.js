@@ -62,7 +62,7 @@ genesisJson.app_state.auth.accounts = genAccounts;
 genesisJson.app_state.bank.balances = genBalances;
 
 if (network === "testnet") {
-  genesisJson.genesis_time = "2023-06-05T15:00:00Z";
+  genesisJson.genesis_time = "2023-06-06T15:00:00Z";
   genesisJson.chain_id = "iconlake-testnet-1";
   genesisJson.app_state.staking.params.unbonding_time = "600s";
   genesisJson.app_state.gov.params.voting_period = "86400s";
