@@ -710,6 +710,254 @@
                     "signatures": [
                         "CPxwf4CRv1z+auZcr8ulthROUv3YCBJ9TKxa4CNzsBQcMqi5PF4r2+q1a1c+X875QD5Hwu7nmVbew7QZ0KBwPQ=="
                     ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "node2",
+                                    "identity": "",
+                                    "website": "https://test.iconlake.com/",
+                                    "security_contact": "support@iconlake.com",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "iconlake1p7gzt8ngze3uf4dxc769cxtjachjkwxw8ruw67",
+                                "validator_address": "iconlakevaloper1p7gzt8ngze3uf4dxc769cxtjachjkwxwzrkhkk",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "Cf9WH/xz8Qklg7oWuKU3xhtAvnnOht3GXUg6GMDFVsM="
+                                },
+                                "value": {
+                                    "denom": "ulake",
+                                    "amount": "1000000000000"
+                                }
+                            }
+                        ],
+                        "memo": "",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "AibxowCULibnVt32sV4U4cbySRi9Syq2nCS2q8QcfMLd"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        },
+                        "tip": null
+                    },
+                    "signatures": [
+                        "WGXPdkoJu1+zBXwUoFBq82DecEOLSuyY7+VV2GY86AxvtIsk42YU0LB8M/lcsgMfzU8OXn9+10jgfnRzsxAyuQ=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "node3",
+                                    "identity": "",
+                                    "website": "https://test.iconlake.com/",
+                                    "security_contact": "support@iconlake.com",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.500000000000000000",
+                                    "max_change_rate": "0.500000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "iconlake19gpyrpf54k4h4makga0d2ea5hk3wmvuc4vvpkd",
+                                "validator_address": "iconlakevaloper19gpyrpf54k4h4makga0d2ea5hk3wmvucsvxc69",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "Up4EMlWIc6gb9015jU2nsZlaf7PgxGn7KPwFZGY+C8A="
+                                },
+                                "value": {
+                                    "denom": "ulake",
+                                    "amount": "9990000000000"
+                                }
+                            }
+                        ],
+                        "memo": "",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "A/VcZU8NYmGmrttwupncchHFdWirVzJHs51Cv60i7eeJ"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        },
+                        "tip": null
+                    },
+                    "signatures": [
+                        "fCLEWlMZd+E8UTHYk82HqRGgzHx9GFUIri09hpXi7LEjohOUfihXZ2WnzK1yCD/4WlA9uVBHpl+y5VcO/AXgJA=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "node4",
+                                    "identity": "",
+                                    "website": "https://test.iconlake.com/",
+                                    "security_contact": "support@iconlake.com",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.500000000000000000",
+                                    "max_change_rate": "0.500000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "iconlake1ahz25x6y75jqhy2tsw74c3wclfczj2fe2cr0h4",
+                                "validator_address": "iconlakevaloper1ahz25x6y75jqhy2tsw74c3wclfczj2fe0cfkma",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "aI3udzl1tcoePuwoXbMPe1bo8HxN+1uheme4Smj0GUA="
+                                },
+                                "value": {
+                                    "denom": "ulake",
+                                    "amount": "9990000000000"
+                                }
+                            }
+                        ],
+                        "memo": "",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "AvagbNb3ts89tC8uSedoqCdP5NsBa/HIlxl5IVk7pkdr"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        },
+                        "tip": null
+                    },
+                    "signatures": [
+                        "czKlnbW/oSRYyxCRhO+30h1PjgdPnIAVKaGXDflU2q8e/YX02zChumbEXILfuaxx1/7k2Mf3VQcvhvTwmBhkPg=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "node5",
+                                    "identity": "",
+                                    "website": "https://test.iconlake.com/",
+                                    "security_contact": "support@iconlake.com",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "iconlake1guunkwmh9aug0308m7c386ggmflywa6kxq0wpu",
+                                "validator_address": "iconlakevaloper1guunkwmh9aug0308m7c386ggmflywa6krq9hd5",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "kZebX8Z9hI9PW9C/UqdWCaTXFLKCQXN1EooHKcqZi1U="
+                                },
+                                "value": {
+                                    "denom": "ulake",
+                                    "amount": "1000000000000"
+                                }
+                            }
+                        ],
+                        "memo": "",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "As/HcjESyM7FNgPBKjjlxRqz/hMp1u3uYX/NEAKZAC9F"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        },
+                        "tip": null
+                    },
+                    "signatures": [
+                        "MR2ngFPAsrqhdICXMg9s8WzMs9jairw/lL868FKaPAg+pPvgcmE0G+Yrv+PXWP0puz0sxScdV5/rjtuLqNvrHA=="
+                    ]
                 }
             ]
         },
