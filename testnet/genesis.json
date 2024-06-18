@@ -85,6 +85,13 @@
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1maejp8sxx9fx66nex7k4sl3dzf20nnqrsjy994",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "address": "iconlake18ys2r7lrrantxumgt39t3vse2sktfh9dawwr0e",
                     "pub_key": null,
                     "account_number": "0",
@@ -156,13 +163,6 @@
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "address": "iconlake1n2ptahu90en5q7798zlkget9lfmn8qyw7dpxuw",
-                    "pub_key": null,
-                    "account_number": "0",
-                    "sequence": "0"
-                },
-                {
-                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
-                    "address": "iconlake1maejp8sxx9fx66nex7k4sl3dzf20nnqrsjy994",
                     "pub_key": null,
                     "account_number": "0",
                     "sequence": "0"
@@ -328,6 +328,15 @@
                     ]
                 },
                 {
+                    "address": "iconlake1maejp8sxx9fx66nex7k4sl3dzf20nnqrsjy994",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "500980000000"
+                        }
+                    ]
+                },
+                {
                     "address": "iconlake18ys2r7lrrantxumgt39t3vse2sktfh9dawwr0e",
                     "coins": [
                         {
@@ -423,15 +432,6 @@
                         {
                             "denom": "ulake",
                             "amount": "50000000000000"
-                        }
-                    ]
-                },
-                {
-                    "address": "iconlake1maejp8sxx9fx66nex7k4sl3dzf20nnqrsjy994",
-                    "coins": [
-                        {
-                            "denom": "ulake",
-                            "amount": "980000000"
                         }
                     ]
                 },
