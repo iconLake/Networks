@@ -814,8 +814,8 @@
             "params": {
                 "blocks_per_year": "6311520",
                 "goal_bonded": "0.670000000000000000",
-                "inflation_max": "0.150000000000000000",
-                "inflation_min": "0.060000000000000000",
+                "inflation_max": "0.080000000000000000",
+                "inflation_min": "0.030000000000000000",
                 "inflation_rate_change": "1.000000000000000000",
                 "mint_denom": "ulake"
             }
