@@ -1,0 +1,868 @@
+{
+    "genesis_time": "2023-06-17T15:00:00Z",
+    "chain_id": "iconlake-testnet-1",
+    "initial_height": "1",
+    "consensus_params": {
+        "block": {
+            "max_bytes": "22020096",
+            "max_gas": "-1"
+        },
+        "evidence": {
+            "max_age_num_blocks": "100000",
+            "max_age_duration": "172800000000000",
+            "max_bytes": "1048576"
+        },
+        "validator": {
+            "pub_key_types": [
+                "ed25519"
+            ]
+        },
+        "version": {
+            "app": "0"
+        }
+    },
+    "app_hash": "",
+    "app_state": {
+        "06-solomachine": null,
+        "07-tendermint": null,
+        "auth": {
+            "params": {
+                "max_memo_characters": "256",
+                "tx_sig_limit": "7",
+                "tx_size_cost_per_byte": "10",
+                "sig_verify_cost_ed25519": "590",
+                "sig_verify_cost_secp256k1": "1000"
+            },
+            "accounts": [
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1njpxea460gxk5l448mxs75g7qe796wsnmmxxfc",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1ksv580sfxmq2lrzqyddp5tgn0xz823xzqdt3n3",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1s7059vfmj9s9av3cj0lqqmjxfr4rtf8sp96h2y",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1n876vzxgje32dc8up225qvgw8vuy493653qtww",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1pxqa7hmxkx9r35g2lwvuvwq5tkg3y5dw28jvrl",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1rhnvuydkc4t5azq0z09hcqen9u8ekhg873dkgg",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1ahlth4rflvh36rln9er5fcd6em3n2u9nzfsqn0",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1maejp8sxx9fx66nex7k4sl3dzf20nnqrsjy994",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake18ys2r7lrrantxumgt39t3vse2sktfh9dawwr0e",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1czyzplzxg0jymafyh85vtagz5vgcxyjsh469nu",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake15veufu0pxwtnqxr0adnn4qg6rr256zghk26aj0",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1e3q6lk29tflkqv04yerh93v3xu0u7qt64x0ncg",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1wzkpd2nmr82r7fe6vytz4s9rtyumw450rx8xpl",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1p0et40a07cypd5rly5k8ch0snvqk983sqsxjqd",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1h2th965rtng2yvrcq87ytuzu2epcv99yxl05ky",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1guunkwmh9aug0308m7c386ggmflywa6kxq0wpu",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1p7gzt8ngze3uf4dxc769cxtjachjkwxw8ruw67",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1qz4w4zkald8fa9zjdqgm2amfsftzv0x77cgsde",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1n2ptahu90en5q7798zlkget9lfmn8qyw7dpxuw",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1wyql86felucfazrqgpnrcun2czl9pa2tn35ya6",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1zdymykdtfm06xm5scn4nrkcyeygtfkr6tqesxz",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1k6epd8f7e5j2glcrplcl6nxzcppewtl2qzz8jy",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake13ll9kkcyln532pqtmqrj66au2qqrccp0njexcn",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1ug8dvwk372wu8qhucafv8rytn97rfu0llm9ddh",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1fhernrae5n8e66ae08nvldm59eacaw0lguclgv",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1wcqxejzuf43p0s69x5ngkwnrssm0ktjkm4qljf",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake17zhnqz9fgp4wwl07hvdv8gv6pqjy9g40fwa9xg",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1gmzhdx9p56pkyn2ywy5ujetthv807k9xg049h5",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1az30tfuc3xe0x9n6kawf7p9esnsr76655nvv7c",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1ptayxguj6kqtsm2x7hvtjaedyuz9exeq87y49h",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake1l2m8ffmh4g6mr5ezc0akcpurj5em5y8tn3h72d",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "iconlake19tpuqle2k40u7sqtc4k9jy7mp9z36dn2fns5tt",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                }
+            ]
+        },
+        "authz": {
+            "authorization": []
+        },
+        "bank": {
+            "params": {
+                "send_enabled": [],
+                "default_send_enabled": false
+            },
+            "balances": [
+                {
+                    "address": "iconlake1njpxea460gxk5l448mxs75g7qe796wsnmmxxfc",
+                    "coins": []
+                },
+                {
+                    "address": "iconlake1ksv580sfxmq2lrzqyddp5tgn0xz823xzqdt3n3",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "1890000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1s7059vfmj9s9av3cj0lqqmjxfr4rtf8sp96h2y",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "7990000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1n876vzxgje32dc8up225qvgw8vuy493653qtww",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "10000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1pxqa7hmxkx9r35g2lwvuvwq5tkg3y5dw28jvrl",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "10000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1rhnvuydkc4t5azq0z09hcqen9u8ekhg873dkgg",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "50000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1ahlth4rflvh36rln9er5fcd6em3n2u9nzfsqn0",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "50000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1maejp8sxx9fx66nex7k4sl3dzf20nnqrsjy994",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "500980000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake18ys2r7lrrantxumgt39t3vse2sktfh9dawwr0e",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "1000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1czyzplzxg0jymafyh85vtagz5vgcxyjsh469nu",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "2000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake15veufu0pxwtnqxr0adnn4qg6rr256zghk26aj0",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "6000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1e3q6lk29tflkqv04yerh93v3xu0u7qt64x0ncg",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "10001000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1wzkpd2nmr82r7fe6vytz4s9rtyumw450rx8xpl",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "10000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1p0et40a07cypd5rly5k8ch0snvqk983sqsxjqd",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "10000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1h2th965rtng2yvrcq87ytuzu2epcv99yxl05ky",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "20000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1guunkwmh9aug0308m7c386ggmflywa6kxq0wpu",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "100000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1p7gzt8ngze3uf4dxc769cxtjachjkwxw8ruw67",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "30000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1qz4w4zkald8fa9zjdqgm2amfsftzv0x77cgsde",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "50000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1n2ptahu90en5q7798zlkget9lfmn8qyw7dpxuw",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "50000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1wyql86felucfazrqgpnrcun2czl9pa2tn35ya6",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "970000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1zdymykdtfm06xm5scn4nrkcyeygtfkr6tqesxz",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "960000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1k6epd8f7e5j2glcrplcl6nxzcppewtl2qzz8jy",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "950000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake13ll9kkcyln532pqtmqrj66au2qqrccp0njexcn",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "940000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1ug8dvwk372wu8qhucafv8rytn97rfu0llm9ddh",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "930000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1fhernrae5n8e66ae08nvldm59eacaw0lguclgv",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "920000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1wcqxejzuf43p0s69x5ngkwnrssm0ktjkm4qljf",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "910000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake17zhnqz9fgp4wwl07hvdv8gv6pqjy9g40fwa9xg",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "900000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1gmzhdx9p56pkyn2ywy5ujetthv807k9xg049h5",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "880000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1az30tfuc3xe0x9n6kawf7p9esnsr76655nvv7c",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "870000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1ptayxguj6kqtsm2x7hvtjaedyuz9exeq87y49h",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "860000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake1l2m8ffmh4g6mr5ezc0akcpurj5em5y8tn3h72d",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "850000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "iconlake19tpuqle2k40u7sqtc4k9jy7mp9z36dn2fns5tt",
+                    "coins": [
+                        {
+                            "denom": "ulake",
+                            "amount": "840000000"
+                        }
+                    ]
+                }
+            ],
+            "supply": [],
+            "denom_metadata": [
+                {
+                    "symbol": "LAKE",
+                    "name": "iconLake LAKE",
+                    "base": "ulake",
+                    "display": "LAKE",
+                    "denom_units": [
+                        {
+                            "denom": "ulake",
+                            "exponent": 0,
+                            "aliases": []
+                        },
+                        {
+                            "denom": "LAKE",
+                            "exponent": 6,
+                            "aliases": []
+                        }
+                    ]
+                },
+                {
+                    "symbol": "DROP",
+                    "name": "iconLake DROP",
+                    "base": "udrop",
+                    "display": "DROP",
+                    "denom_units": [
+                        {
+                            "denom": "udrop",
+                            "exponent": 0,
+                            "aliases": []
+                        },
+                        {
+                            "denom": "DROP",
+                            "exponent": 4,
+                            "aliases": []
+                        }
+                    ]
+                }
+            ],
+            "send_enabled": [
+                {
+                    "denom": "udrop",
+                    "enabled": false
+                },
+                {
+                    "denom": "ulake",
+                    "enabled": true
+                }
+            ]
+        },
+        "capability": {
+            "index": "1",
+            "owners": []
+        },
+        "consensus": null,
+        "crisis": {
+            "constant_fee": {
+                "amount": "1000",
+                "denom": "ulake"
+            }
+        },
+        "distribution": {
+            "delegator_starting_infos": [],
+            "delegator_withdraw_infos": [],
+            "fee_pool": {
+                "community_pool": []
+            },
+            "outstanding_rewards": [],
+            "params": {
+                "base_proposer_reward": "0.000000000000000000",
+                "bonus_proposer_reward": "0.000000000000000000",
+                "community_tax": "0.050000000000000000",
+                "withdraw_addr_enabled": true
+            },
+            "previous_proposer": "",
+            "validator_accumulated_commissions": [],
+            "validator_current_rewards": [],
+            "validator_historical_rewards": [],
+            "validator_slash_events": []
+        },
+        "drop": {
+            "infoList": [],
+            "params": {
+                "init_amount": "100000",
+                "min_amount_per_mint": "10000",
+                "max_amount_per_mint": "600000"
+            }
+        },
+        "evidence": {
+            "evidence": []
+        },
+        "feegrant": {
+            "allowances": []
+        },
+        "genutil": {
+            "gen_txs": [
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "node1",
+                                    "identity": "",
+                                    "website": "https://test.iconlake.com/",
+                                    "security_contact": "support@iconlake.com",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "iconlake1h2th965rtng2yvrcq87ytuzu2epcv99yxl05ky",
+                                "validator_address": "iconlakevaloper1h2th965rtng2yvrcq87ytuzu2epcv99yrl9d6v",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "oxJ4lDdSSNHHhQ776UKdMIIhwsaD8YU3v4eLxQMP84s="
+                                },
+                                "value": {
+                                    "denom": "ulake",
+                                    "amount": "1000000000000"
+                                }
+                            }
+                        ],
+                        "memo": "",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "A70EYbMXLJzkwn5kJsV+YOfaynePpcX9fCkBglsTvRRN"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        },
+                        "tip": null
+                    },
+                    "signatures": [
+                        "CPxwf4CRv1z+auZcr8ulthROUv3YCBJ9TKxa4CNzsBQcMqi5PF4r2+q1a1c+X875QD5Hwu7nmVbew7QZ0KBwPQ=="
+                    ]
+                }
+            ]
+        },
+        "gov": {
+            "deposit_params": null,
+            "deposits": [],
+            "params": {
+                "burn_proposal_deposit_prevote": false,
+                "burn_vote_quorum": false,
+                "burn_vote_veto": true,
+                "max_deposit_period": "604800s",
+                "min_deposit": [
+                    {
+                        "amount": "10000000000",
+                        "denom": "ulake"
+                    }
+                ],
+                "min_initial_deposit_ratio": "0.200000000000000000",
+                "quorum": "0.400000000000000000",
+                "threshold": "0.500000000000000000",
+                "veto_threshold": "0.334000000000000000",
+                "voting_period": "86400s"
+            },
+            "proposals": [],
+            "starting_proposal_id": "1",
+            "tally_params": null,
+            "votes": [],
+            "voting_params": null
+        },
+        "group": {
+            "group_members": [],
+            "group_policies": [],
+            "group_policy_seq": "0",
+            "group_seq": "0",
+            "groups": [],
+            "proposal_seq": "0",
+            "proposals": [],
+            "votes": []
+        },
+        "ibc": {
+            "channel_genesis": {
+                "ack_sequences": [],
+                "acknowledgements": [],
+                "channels": [],
+                "commitments": [],
+                "next_channel_sequence": "0",
+                "receipts": [],
+                "recv_sequences": [],
+                "send_sequences": []
+            },
+            "client_genesis": {
+                "clients": [],
+                "clients_consensus": [],
+                "clients_metadata": [],
+                "create_localhost": false,
+                "next_client_sequence": "0",
+                "params": {
+                    "allowed_clients": [
+                        "06-solomachine",
+                        "07-tendermint"
+                    ]
+                }
+            },
+            "connection_genesis": {
+                "client_connection_paths": [],
+                "connections": [],
+                "next_connection_sequence": "0",
+                "params": {
+                    "max_expected_time_per_block": "75000000000"
+                }
+            }
+        },
+        "icon": {
+            "params": {}
+        },
+        "interchainaccounts": {
+            "controller_genesis_state": {
+                "active_channels": [],
+                "interchain_accounts": [],
+                "params": {
+                    "controller_enabled": true
+                },
+                "ports": []
+            },
+            "host_genesis_state": {
+                "active_channels": [],
+                "interchain_accounts": [],
+                "params": {
+                    "allow_messages": [
+                        "*"
+                    ],
+                    "host_enabled": true
+                },
+                "port": "icahost"
+            }
+        },
+        "mint": {
+            "minter": {
+                "annual_provisions": "0.000000000000000000",
+                "inflation": "0.080000000000000000"
+            },
+            "params": {
+                "blocks_per_year": "6311520",
+                "goal_bonded": "0.670000000000000000",
+                "inflation_max": "0.080000000000000000",
+                "inflation_min": "0.030000000000000000",
+                "inflation_rate_change": "1.000000000000000000",
+                "mint_denom": "ulake"
+            }
+        },
+        "nft": {
+            "classes": [],
+            "entries": []
+        },
+        "params": null,
+        "slashing": {
+            "missed_blocks": [],
+            "params": {
+                "downtime_jail_duration": "600s",
+                "min_signed_per_window": "0.050000000000000000",
+                "signed_blocks_window": "1000",
+                "slash_fraction_double_sign": "0.050000000000000000",
+                "slash_fraction_downtime": "0.001000000000000000"
+            },
+            "signing_infos": []
+        },
+        "staking": {
+            "delegations": [],
+            "exported": false,
+            "last_total_power": "0",
+            "last_validator_powers": [],
+            "params": {
+                "bond_denom": "ulake",
+                "historical_entries": 10000,
+                "max_entries": 7,
+                "max_validators": 100,
+                "min_commission_rate": "0.050000000000000000",
+                "unbonding_time": "600s"
+            },
+            "redelegations": [],
+            "unbonding_delegations": [],
+            "validators": []
+        },
+        "transfer": {
+            "denom_traces": [],
+            "params": {
+                "receive_enabled": true,
+                "send_enabled": true
+            },
+            "port_id": "transfer",
+            "total_escrowed": []
+        },
+        "upgrade": {},
+        "vesting": {}
+    }
+}
